@@ -7,6 +7,7 @@ import { brandsRoutes } from "./routes/brands.routes.js";
 import { partsRoutes } from "./routes/parts.routes.js";
 import { reviewsRoutes } from "./routes/reviews.routes.js";
 import { notFound, errorHandler } from "./middleware/error.js";
+import ordersRoutes from "./routes/orders.routes.js";
 
 export function createApp() {
   const app = express();
@@ -22,6 +23,7 @@ export function createApp() {
   app.use("/api/brands", brandsRoutes);
   app.use("/api/parts", partsRoutes);
   app.use("/api", reviewsRoutes);
+  app.use("/api/orders", ordersRoutes);
 
   app.use(notFound);
   app.use(errorHandler);
