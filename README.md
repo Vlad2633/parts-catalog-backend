@@ -42,6 +42,7 @@ MONGO_URI=mongodb://127.0.0.1:27017/parts_catalog
 JWT_SECRET=your_secret_key
 
 ### 3. Запустити сервер
+```
 npm run dev
 
 Backend буде доступний за адресою:
