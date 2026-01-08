@@ -88,14 +88,14 @@ Backend буде доступний за адресою:
 ## Тестові облікові записи
 Admin
 ```bash
-Email: admin@test.com
+Email: vlad@test.com
 Password: 12345678
 Role: ADMIN
 ```
 User
 ```bash
-Email: user@test.com
-Password: 12345678
+Email: vlad2@test.com
+Password: 123456
 Role: USER
 ```
 (Адміністратора можна створити напряму в БД або змінити роль користувача вручну)
